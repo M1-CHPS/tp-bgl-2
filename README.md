@@ -84,8 +84,23 @@ Pour répondre à ce TP vous clonerez le dépôt git https://github.com/pablooli
 
 ## Questions bonus
 
-4. Utilisez l'outil `llvm-cov` ou `gcov` pour calculer la couverture de code obtenue durant les tests.
-5. Utilisez la fonction définié dans `rdtsc.h` pour mesurer précisément le nombre de cycles pris par l'algorithme. Tracez ce nombre de cycles en fonction de la taille n de l'échiquier. Pouvez vous faire une hypothèse sur la compléxité de l'algorithme ?
-6. Pouvez vous accélérer le programme ? Pouvez vous améliorer l'interface ?
+4. Utilisez l'outil `llvm-cov` ou `gcov` pour calculer la couverture de code obtenue durant les tests. Par exemple avec llvm les commandes nécessaires sont,
 
+```sh
+# utiliser l'option --coverage pendant la compilation
+clang-6.0 --coverage -std=c99 -O0 -g test_queens.c -o test_queens -lcmocka
 
+# exécuter les tests
+./test_queens
+
+# produire les rapports de couverture
+llvm-cov-6.0 gcov -f -b test_queens
+```
+
+Quel taux de couverture est atteint par nos tests ?
+
+5. Utilisez la fonction définié dans `rdtsc.h` pour mesurer précisément le nombre de cycles pris par l'algorithme. Tracez ce nombre de cycles en fonction de la taille n de l'échiquier. Comment transformer le nombre de cycles mesuré par RDTSC en temps ? Pouvez vous faire une hypothèse sur la compléxité de l'algorithme ?
+
+6. Pouvez vous accélérer le programme ? 
+
+7. Pouvez vous améliorer l'interface ?
