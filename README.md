@@ -42,7 +42,7 @@ bool queen[n][n] = { { false, false, true, false },
                       ... };
 ```
 
-On peut cependant remarquer que chaque colonne ne peut contenir qu'une seule reine. En effet, deux reines sur la même colonne pourraient s'attaquer. Ainsi, il y a une et une seule reine par colonne dans les échiquiers solutions. Il suffit donc stocker pour chaque colonne, le numéro de ligne où la reine est présente. Cela donnera pour l'exemple ci-dessus,
+On peut cependant remarquer que chaque colonne ne peut contenir qu'une seule reine. En effet, deux reines sur la même colonne pourraient s'attaquer. Ainsi, il y a une et une seule reine par colonne dans les échiquiers solutions. Il suffit donc de stocker pour chaque colonne le numéro de ligne où la reine est présente. Cela donnera pour l'exemple ci-dessus,
 
 ```c
 #define n 4
