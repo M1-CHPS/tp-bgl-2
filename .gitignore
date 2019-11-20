@@ -1,0 +1,7 @@
+*.o
+queens
+test_queens
+test_main
+*.gcno
+*.gcov
+*.gcda
