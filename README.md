@@ -74,11 +74,18 @@ Pour construire le programme, un script `build.sh` est donné.
 
 Pour répondre à ce TP vous clonerez le dépôt git https://github.com/pablooliveira/. Assurez vous de bien commiter chacune de vos modifications avec des messages clairs et détaillés.
 
-1. Remplacer le script `build.sh` par un `Makefile`. Utilisez toutes les techniques vues en cours pour améliorer votre `Makefile`.
+1. Remplacer le script `build.sh` par un `Makefile`. Utilisez toutes les techniques vues en cours pour améliorer votre `Makefile`. Assurez vous d'inclure des cibles pour nettoyer le projet, lancer les tests, etc. Utilisez la compilation séparée pour réduire le temps de build.
 
-2. Implémentez chacune des fonctions dans `queens.c` dans l'ordre où elles sont données. Attention a bien suivre la philosophie de développement guidé par les tests. Avant d'écrire le code d'une fonction, rajoutez un ensemble de tests unitaires dans `test_queens.c`.
+2. Lisez attentivement les tests de main dans `test_main.c`. Quelle fonction de main est testée ? Comment les entrées de tests ont-elles été choisies ? Manque-t-il des tests à votre avis ?
+
+3. Implémentez chacune des fonctions dans `queens.c` dans l'ordre où elles sont données. Attention a bien suivre la philosophie de développement guidé par les tests. Avant d'écrire le code d'une fonction, rajoutez un ensemble de tests unitaires dans `test_queens.c` pour tester la fonction.
 
 3. Testez le programme finalisé pour plusieurs tailles de grille. Vérifiez que le programme réponds bien au problème posé initialement dans les spécifications.
 
+## Questions bonus
+
+4. Utilisez l'outil `llvm-cov` ou `gcov` pour calculer la couverture de code obtenue durant les tests.
+5. Utilisez la fonction définié dans `rdtsc.h` pour mesurer précisément le nombre de cycles pris par l'algorithme. Tracez ce nombre de cycles en fonction de la taille n de l'échiquier. Pouvez vous faire une hypothèse sur la compléxité de l'algorithme ?
+6. Pouvez vous accélérer le programme ? Pouvez vous améliorer l'interface ?
 
 
