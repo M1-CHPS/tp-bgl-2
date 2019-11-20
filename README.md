@@ -32,13 +32,13 @@ R . . .
 
 ### Structures de données
 
-Nous allons commencer par réfléchir à notre structure de données. Il faut pouvoir représenter l'échiquier et le placement des reines. Une première solution consisterait à utiliser un tableau à double entrées de booléens dont la valeur indique la présence d'une reine,
+Nous allons commencer par réfléchir à nos structures de données. Il faut pouvoir représenter l'échiquier et le placement des reines. Une première solution consisterait à utiliser un tableau à double entrée de booléens dont la valeur indique la présence d'une reine,
 
 ```c
 #include <stdbool.h>
 #define n 4
 bool queen[n][n] = { { false, false, true, false }, 
-                      { true, false, false, false },
+                     { true, false, false, false },
                       ... };
 ```
 
