@@ -64,7 +64,7 @@ Le code va être organisé en plusieurs fichiers:
 - `queens.h`, contient la fonction publique `find_solution` qui permet de résoudre le problème des n-reines
 - `queens.c`, contient l'implémentation de l'algorithme qui est décomposé en plusieurs fonctions intermédiaires
 
-Merci de prendre le temps de lire ces trois fichiers attentivement. Le code de `main.c` est donné mais l'implementation dans queens.c est à faire.
+Merci de prendre le temps de lire ces trois fichiers attentivement. Le code de `main.c` est donné mais l'implementation dans `queens.c` est à faire.
 
 Nous utiliserons des tests unitaires pour développer ce code. Les tests seront écrits avec la bibliothèque [cmocka](https://cmocka.org/).
 
