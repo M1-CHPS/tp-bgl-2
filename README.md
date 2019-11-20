@@ -99,7 +99,7 @@ llvm-cov-6.0 gcov -f -b test_queens
 
 Quel taux de couverture est atteint par nos tests ?
 
-5. Utilisez la fonction définié dans `rdtsc.h` pour mesurer précisément le nombre de cycles pris par l'algorithme. Tracez ce nombre de cycles en fonction de la taille n de l'échiquier. Comment transformer le nombre de cycles mesuré par RDTSC en temps ? Pouvez vous faire une hypothèse sur la compléxité de l'algorithme ?
+5. Utilisez la fonction définié dans `rdtsc.h` pour mesurer précisément le nombre de cycles pris par l'algorithme. Tracez ce nombre de cycles en fonction de la taille n de l'échiquier. Est-ce que plusieurs mesures répétées sont stables ? Comment transformer le nombre de cycles mesuré par RDTSC en temps ? Pouvez vous faire une hypothèse sur la compléxité de l'algorithme ?
 
 6. Pouvez vous accélérer le programme ? 
 
