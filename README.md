@@ -13,6 +13,8 @@ Pour faire ce TP vous aurez besoin d'installer
 - Le compilateur `gcc` ou `clang`
 - (optionnel) L'outil `gcov`
 
+Pour répondre à ce TP vous clonerez le dépôt git https://github.com/pablooliveira/. Assurez vous de bien commiter chacune de vos modifications avec des messages clairs et détaillés.
+
 ## Spécifications
 
 Dans ce TP nous allons développer un programme pour résoudre le problème classique des n-reines.
@@ -71,8 +73,6 @@ Les tests sont dans les fichiers `test_main.c` et `test_queens.c` respectivement
 Pour construire le programme, un script `build.sh` est donné.
 
 ## Questions
-
-Pour répondre à ce TP vous clonerez le dépôt git https://github.com/pablooliveira/. Assurez vous de bien commiter chacune de vos modifications avec des messages clairs et détaillés.
 
 1. Remplacer le script `build.sh` par un `Makefile`. Utilisez toutes les techniques vues en cours pour améliorer votre `Makefile`. Assurez vous d'inclure des cibles pour nettoyer le projet, lancer les tests, etc. Utilisez la compilation séparée pour réduire le temps de build.
 
