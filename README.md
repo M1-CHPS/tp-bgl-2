@@ -13,7 +13,7 @@ Pour faire ce TP vous aurez besoin d'installer
 - Le compilateur `gcc` ou `clang`
 - (optionnel) L'outil `gcov`
 
-Pour répondre à ce TP vous clonerez le dépôt git https://github.com/pablooliveira/. Assurez vous de bien commiter chacune de vos modifications avec des messages clairs et détaillés.
+Pour répondre à ce TP vous clonerez le dépôt git https://github.com/pablooliveira/bgl. Assurez vous de bien commiter chacune de vos modifications avec des messages clairs et détaillés.
 
 ## Spécifications
 
