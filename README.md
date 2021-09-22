@@ -1,6 +1,6 @@
 # TP 2 Bases du Génie Logiciel -- Makefile & Tests
 
-**Enseignant**: Pablo de Oliveira < pablo.oliveira@uvsq.fr >
+Pablo de Oliveira < pablo.oliveira@uvsq.fr >
 
 Le but de ce TP est de mettre en pratique les notions sur Git, les Makefile et les tests unitaires dans un projet logiciel simple.
 En fin de TP si nous avons le temps nous pourrons utiliser des outils de couverture de code, et réaliser des mesures de performance.
