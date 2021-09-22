@@ -1,4 +1,4 @@
-# TP Bases du Génie Logiciel -- Makefile & Tests
+# TP 2 Bases du Génie Logiciel -- Makefile & Tests
 
 **Enseignant**: Pablo de Oliveira < pablo.oliveira@uvsq.fr >
 
