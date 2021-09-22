@@ -76,6 +76,8 @@ Pour construire le programme, un script `build.sh` est donné.
 
 1. Remplacer le script `build.sh` par un `Makefile`. Utilisez toutes les techniques vues en cours pour améliorer votre `Makefile`. Assurez vous d'inclure des cibles pour nettoyer le projet, lancer les tests, etc. Utilisez la compilation séparée pour réduire le temps de build.
 
+Pour le lancement des tests assurez vous que la cible peut être appelée avec la commande `make check`. En effet, cela permettra au système d'intégration continue de GitHub de tester votre projet à chaque push.
+
 2. Lisez attentivement les tests de main dans `test_main.c`. Quelle fonction de main est testée ? Comment les entrées de tests ont-elles été choisies ? Manque-t-il des tests à votre avis ?
 
 3. Implémentez chacune des fonctions dans `queens.c` dans l'ordre où elles sont données. Attention a bien suivre la philosophie de développement guidé par les tests. Avant d'écrire le code d'une fonction, rajoutez un ensemble de tests unitaires dans `test_queens.c` pour tester la fonction.
