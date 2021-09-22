@@ -13,6 +13,8 @@ Pour faire ce TP vous aurez besoin d'installer
 - Le compilateur `gcc` ou `clang`
 - (optionnel) L'outil `gcov`
 
+Pour installer la bibliothèque cmocka sous les cartables numériques, il suffit d'exécuter la commande `sudo apt install libcmocka-dev`.
+
 Assurez-vous de bien commiter chacune de vos modifications avec des messages clairs et détaillés.
 
 ## Spécifications
