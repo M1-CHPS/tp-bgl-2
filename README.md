@@ -2,7 +2,7 @@
 
 **Enseignant**: Pablo de Oliveira < pablo.oliveira@uvsq.fr >
 
-Le but de ce TP est de mettre en pratique les notions sur les Makefile et les tests unitaires dans un projet logiciel simple.
+Le but de ce TP est de mettre en pratique les notions sur Git, les Makefile et les tests unitaires dans un projet logiciel simple.
 En fin de TP si nous avons le temps nous pourrons utiliser des outils de couverture de code, et réaliser des mesures de performance.
 
 ## Prérequis
@@ -13,7 +13,7 @@ Pour faire ce TP vous aurez besoin d'installer
 - Le compilateur `gcc` ou `clang`
 - (optionnel) L'outil `gcov`
 
-Pour répondre à ce TP vous clonerez le dépôt git https://github.com/pablooliveira/bgl. Assurez vous de bien commiter chacune de vos modifications avec des messages clairs et détaillés.
+Assurez-vous de bien commiter chacune de vos modifications avec des messages clairs et détaillés.
 
 ## Spécifications
 
@@ -103,4 +103,4 @@ Quel taux de couverture est atteint par nos tests ?
 
 6. Pouvez vous accélérer le programme ? 
 
-7. Pouvez vous améliorer l'interface ?
+7. Pouvez vous améliorer l'interface ? 
